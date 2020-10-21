@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+   <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+       <label lang="de">Gorilla 18+</label>
+       <label lang="en">Gorilla 18+</label>
 
-    <elements>
-        <element type="boolean">
-            <name>examplesetting</name>
-            <label>This is an example</label>
-            <label lang="de">Das hier ist ein Beispiel</label>
-            <value>1</value>
-        </element>
-    </elements>
+       <version>0.0.1</version>
+       <link>https://example.org</link>
+       <author>Joschi</author>
+       <compatibility minVersion="5.3.0"/>
 
-</config>
+   </plugin>
